@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-food{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrapp{
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../assets/mexico-food.png");
+}
+
+
+
+.wrapp-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section { 
+    max-width: 20em;
+    text-align: center;
+    align-items: center;
+    padding: 0em 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: #ffffff;
+}
