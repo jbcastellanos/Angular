@@ -7,6 +7,11 @@ import { InicioComponent } from './inicio/inicio.component';
 import { HeaderComponent } from './header/header.component';
 import { FeaturesComponent } from './features/features.component';
 import { ContactComponent } from './contact/contact.component';
+import { ColombianaComponent } from './colombiana/colombiana.component';
+import { MexicanaComponent } from './mexicana/mexicana.component';
+import { FrancesaComponent } from './francesa/francesa.component';
+import { ItalianaComponent } from './italiana/italiana.component';
+import { JaponesaComponent } from './japonesa/japonesa.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { ContactComponent } from './contact/contact.component';
     InicioComponent,
     HeaderComponent,
     FeaturesComponent,
-    ContactComponent
+    ContactComponent,
+    ColombianaComponent,
+    MexicanaComponent,
+    FrancesaComponent,
+    ItalianaComponent,
+    JaponesaComponent
   ],
   imports: [
     BrowserModule,
