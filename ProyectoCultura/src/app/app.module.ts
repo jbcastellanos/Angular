@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HeaderComponent } from './header/header.component';
 import { FeaturesComponent } from './features/features.component';
-import { ContactComponent } from './contact/contact.component';
 import { ColombianaComponent } from './colombiana/colombiana.component';
 import { MexicanaComponent } from './mexicana/mexicana.component';
 import { FrancesaComponent } from './francesa/francesa.component';
@@ -19,7 +18,6 @@ import { JaponesaComponent } from './japonesa/japonesa.component';
     InicioComponent,
     HeaderComponent,
     FeaturesComponent,
-    ContactComponent,
     ColombianaComponent,
     MexicanaComponent,
     FrancesaComponent,

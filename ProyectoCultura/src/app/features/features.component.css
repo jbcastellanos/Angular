@@ -1,8 +1,26 @@
 section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    gap: 2em;
 }
+
+.wrapp-section{
+    background-image: url('../../assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+}
+
+.wrapp-section-dark{
+    background-image: url('../../assets/fondo-2.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+}
+
 .img-food{
     display: flex;
     align-items: center;
@@ -10,27 +28,66 @@ section{
 }
 
 .img-wrapp{
-    width: 300px;
-    aspect-ratio: 1 / 1;
+    width: 354px;
+    height: 532px;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url("../../assets/mexico-food.png");
+    background-size: cover;
+    background-image: url("../../assets/mexico-food.jpg");
 }
-
-
 
 .wrapp-text-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .text-section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 20em;
-    text-align: center;
-    align-items: center;
-    padding: 0em 2em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 532px;
+    text-align: start;
+    padding: 0em 0em 0em 0em;
+    font-family:"Poppins", Helvetica, sans-serif;
     font-size: larger;
-    background-color: #ffffff;
+    color: #323232;
+}
+
+.text-section > div h2{
+    font-size: calc(1.5rem + .9vw);
+    font-weight: 600;  
+    margin: 0;
+    margin-bottom: 0.7em;
+}
+
+.text-section > div p{  
+    margin: 7px 0px;
+}
+
+.text-section > p{
+    font-size: 0.875rem;
+    line-height: 1.7;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: #444;
+}
+
+.wrapp-text-section > button {
+    position: absolute;
+    bottom: 7em;
+    right: 3em;
+    width: fit-content;
+    color: white;
+    background-color: black;
+    border: 0;
+    padding: 0.8em 1.3em;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapp-text-section > button:hover {
+    background-color: orangered;
+    color: black;
 }

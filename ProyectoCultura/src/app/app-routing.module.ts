@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 import { FeaturesComponent } from './features/features.component';
-import { ContactComponent } from './contact/contact.component';
 import { JaponesaComponent } from './japonesa/japonesa.component';
 import { ColombianaComponent } from './colombiana/colombiana.component';
 import { FrancesaComponent } from './francesa/francesa.component';
@@ -12,7 +11,6 @@ import { ItalianaComponent } from './italiana/italiana.component';
 const routes: Routes = [
   { path: '', component: InicioComponent },
   { path: 'features', component: FeaturesComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'Japonesa', component: JaponesaComponent},
   { path: 'Colombiana', component: ColombianaComponent},
   { path: 'Italiana', component: ItalianaComponent},
