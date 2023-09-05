@@ -23,7 +23,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    gap: 2em;
+    gap: 10em;
+    padding: 1em;
 }
 
 .wrapp-section{
@@ -131,8 +132,8 @@
 
 .wrapp-text-section > button {
     position: absolute;
-    bottom: 7em;
-    right: 3em;
+    bottom: 6em;
+    right: 0;
     width: fit-content;
     color: white;
     background-color: black;
