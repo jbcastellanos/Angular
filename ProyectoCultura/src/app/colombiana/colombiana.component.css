@@ -18,36 +18,77 @@
     font-size: 5vw;
   }
 
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;
-    text-align: center;
-    background-image: url('../../assets/fondo.jpg');
-  }
+section {
+  display: flex;
+  padding: 6em;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  text-align: center;
+  background-image: url('../../assets/fondo.jpg');
+}
 
 .description {
-  padding: 6em;
-  max-width: 50%;
+  max-width: 70%;
   font-family:"Poppins", Helvetica, sans-serif;
   font-size: larger;
   color: #323232;
 }
 
 .description > div h2{
-  font-size: calc(1.5rem + .9vw);
+  font-size: calc(2rem + .9vw);
   font-weight: 600;  
   margin: 0;
 }
 
-.description > div p{  
-    margin-bottom: 2.2em;
+.description > div p{ 
+  font-size: calc(1.1rem + .9vw);
+  margin-bottom: 2.2em;
 }
 
 .description > p{
-    font-size: 0.875rem;
-    line-height: 1.7;
-    font-family: "Poppins", Helvetica, sans-serif;
-    color: #444;
+  font-size: calc(0.3rem + .9vw);
+  line-height: 1.7;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #444;
+}
+
+.section-cards {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  text-align: center;
+  background-image: url('../../assets/fondo.jpg');
+  padding-bottom: 4em;
+
+}
+
+.wrapp-card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  height:fit-content;
+  padding: 2em;
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #d0d765;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+.card h1{
+  text-align: left;
+}
+
+.card > div p{
+  text-align: justify;
 }
