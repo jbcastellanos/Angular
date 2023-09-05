@@ -36,7 +36,6 @@
 
 .wrapp-section-dark{
     background-image: url('../../assets/fondo-2.jpg');
-    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5em 0;
@@ -109,11 +108,11 @@
     padding: 0em 0em 0em 0em;
     font-family:"Poppins", Helvetica, sans-serif;
     font-size: larger;
-    color: #323232;
+    color: #fefefe;
 }
 
 .text-section > div h2{
-    font-size: calc(1.5rem + .9vw);
+    font-size: calc(1.3rem + .9vw);
     font-weight: 600;  
     margin: 0;
     margin-bottom: 0.7em;
@@ -127,16 +126,16 @@
     font-size: 0.875rem;
     line-height: 1.7;
     font-family: "Poppins", Helvetica, sans-serif;
-    color: #444;
+    color: #ffffff;
 }
 
 .wrapp-text-section > button {
     position: absolute;
-    bottom: 6em;
+    bottom: 5em;
     right: 0;
     width: fit-content;
     color: white;
-    background-color: black;
+    background-color: orangered ;
     border: 0;
     padding: 0.8em 1.3em;
     font-weight: 400;

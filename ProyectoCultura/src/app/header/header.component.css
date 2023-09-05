@@ -2,7 +2,6 @@
 header {
     background-color: #ffffffde; /* Color de fondo del encabezado */
     color: #000000; /* Color del texto en el encabezado */
-    padding: 0px 0; /* Espaciado interior del encabezado (arriba/abajo, izquierda/derecha) */
     position:absolute;
     top: 0;
     width: 100%;
@@ -12,13 +11,11 @@ header {
   /* Estilo para la barra de navegación */
   nav {
     display: flex; /* Mostrar elementos en línea */
-    justify-content: flex-start; /* Espacio entre los elementos en la barra de navegación */
+    justify-content: space-between; /* Espacio entre los elementos en la barra de navegación */
     align-items: center; /* Centrar verticalmente los elementos */
-    max-width: 1200px; /* Ancho máximo del contenido */
-    margin: 0 10px; /* Centrar el contenido horizontalmente */
-    padding: 7px 10px; /* Espaciado interior de la barra de navegación (izquierda/derecha) */
+    max-width: 100%;
+    padding: 1em 2em; /* Espaciado interior de la barra de navegación (izquierda/derecha) */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    gap: 1.5em;
   }
   
   /* Estilo para el logotipo */
