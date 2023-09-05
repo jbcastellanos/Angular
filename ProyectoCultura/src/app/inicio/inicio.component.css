@@ -17,6 +17,7 @@
   .background h1 {
     font-size: 5vw;
   }
+  
   section{
     display: flex;
     flex-wrap: wrap;
