@@ -54,6 +54,41 @@
     background-size: cover;
     background-image: url("../../assets/mexico-food.jpg");
 }
+.img-wrapp-Japonesa{
+    width: 354px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/Japonesa.jpg");
+}
+.img-wrapp-Italiana{
+    width: 354px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/Italiana.jpg");
+}
+.img-wrapp-Francesa{
+    width: 354px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/Francesa.jpg");
+}
+.img-wrapp-Mexicana{
+    width: 354px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/Mexicana.jpg");
+}
+.img-wrapp-Colombiana{
+    width: 354px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/Colombiana.jpg");
+}
 
 .wrapp-text-section {
     display: flex;
